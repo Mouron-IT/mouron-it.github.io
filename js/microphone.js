@@ -6,7 +6,7 @@ window.addEventListener("message", (event) => {
     if (event.data.type === "receive_message") {
 
         console.log(event)
-        startSynthesis(event.data.payload.text);
+        // startSynthesis(event.data.payload.text);
     }
   });
 
